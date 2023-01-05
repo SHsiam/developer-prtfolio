@@ -2,9 +2,11 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-section{
+
+section {
     margin-top: 130px;
 }
+
 .primary-color {
     color: #FD6E0A;
 }
@@ -157,4 +159,35 @@ main {
 
 .skill-description {
     color: #757575;
+}
+
+/* Resume Styles */
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+.resume-items{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
 }
